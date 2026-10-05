@@ -1,0 +1,33 @@
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python package installer caches
+.pip-cache/
+.poetry/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Local SQLite database files (if you use sqlite for quick testing)
+*.db
+*.sqlite
+*.sqlite3
+
+# Development database dumps
+*.sql
+*.dump
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
